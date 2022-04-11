@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-ul {
+.nav-a {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -14,9 +14,11 @@ ul {
 .img-responsive {
     height: auto;
     width: auto;
+    align-items: center;
     max-height: 43px;
     max-width: 250px;
     padding-right: 108px;
+    padding-left: 45px;
 }
 
 li {
@@ -27,6 +29,7 @@ li .nav-b:hover {
     background-color: rgb(255, 255, 255);
     border-radius: 16px;
 }
+
 
 li .nav-b {
     display: block;
@@ -95,9 +98,16 @@ li .nav-b {
 }
 
 .main {
-    margin-top: 30px;
-    margin-left: 200px;
-    margin-right: 360px;
-    padding: 16px 30px;
-    background-color: #818181;
+    margin-left: 150px;
+    padding: 20px 82px;
+}
+
+.main-a {
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 180px;
+    padding: 10px 30px;
+    background-color: white;
+    box-shadow: 10px 10px rgb(203, 193, 193);
+    border: 1px solid black;
 }
